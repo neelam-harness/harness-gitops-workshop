@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_neelam_harness_harness_gitops_workshop_1716328384653-pr-trigger-input-set
+  identifier: Build_neelam_harness_harness_gitops_workshop_1716328384653prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_neelam_harness_harness_gitops_workshop_1716328384653
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
